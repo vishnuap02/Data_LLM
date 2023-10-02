@@ -1,0 +1,87 @@
+Intro:
+ Mirai was a botnet that 
+attacked IoT devices, mostly Internet-connected cameras, by checking 
+the status of Ports 23 and 2323 and brute forcing authentication using 
+common credentials.
+ WannaCry, asking us for money to open the lock on our door or to turn 
+on a pacemaker.
+history:
+philips home.
+Jeep hack- app
+if one is using a popular framework, it is often thought to be 
+secure by design.
+
+Reasons for IoT security vulnerabilities.
+1) Lack of security awareness among developers
+2)Lack of macro persppective - Viewing it in broad view
+combining findings from the mobile application and how the network communication 
+works, you could possibly discover a critical security issue
+3) Supply-chain based security issues.(when different components are manufactured by different stakeholders)
+
+all the possible channels and collecting information, such as device 
+documentation and manuals, online resources and posts about the 
+product, and any available content or prior research about the device.
+
+various components used in the device, CPU 
+architecture type, communication protocols used, mobile application 
+details, firmware upgrade process, hardware ports, external media support 
+on devices, and pretty much anything else that you can find.
+
+ IoT solution, the entire architecture can be broadly 
+divided into three categories:
+1. Embedded device.
+2. Firmware, software, and applications.
+3. Radio communications.
+
+Some of the common radio communication protocols used in IoT 
+devices are 
+
+create an attack surface map of 
+any given IoT device:
+• List all the components present in the target product.
+• Prepare an architecture diagram.
+• Label the components and the communication flows 
+between them.
+• Identify attack vectors for each component and the 
+communication channel or protocol used.
+• Categorize the attack vectors based on the varying 
+criticality.
+
+prepare a spreadsheet with all the test 
+cases and exploits to be tested on the various components including a 
+detailed description of what specific test are you going to perform and 
+what the output will be if the attack is successful.
+
+The Real-time Transport Protocol (RTP) is a network protocol which described how to transmit various media (audio, video) from one endpoint to another in a real-time fashion. RTP is suitable for video-streaming application, telephony over IP like Skype and conference technologies.
+
+The secure version of RTP, SRTP, is used by WebRTC, and uses encryption and authentication to minimize the risk of denial-of-service attacks and security breaches.
+
+https://ieeexplore.ieee.org/document/7913565
+
+security requirements in five categories: Network Security, Identity Management, Privacy, Trust and Resilience.
+
+SSL -  These protocols are used to encrypt data sent over the unsecured medium (the Internet) between a client machine and a server (a website hosted on a computer)
+
+SSL Renegotiation Attack : Attackers who can hijack an HTTPS connection can add their own requests to the conversation between the client and server. The attacker cannot decrypt the client-server communication, so it is different from a typical man-in-the-middle attack
+
+Downgrade Attacks: tricks a web server into negotiating connections with previous versions of TLS that have long since been abandoned as insecure.
+
+Stripping attacks : attackers identifies as authorised router. using ARP poisoning.! MITM
+
+MITM attacks, which include getting access to SSL/TLS private keys that bind the certificate authenticity and unsecured end points.
+-----------------------
+EDGE computing - bringing workloads into network(n/w edge)
+- containerized workload that can be managed on these spaces.
+- distributing workloads coz of increasing devices.
+- performing data anlayz on edge reduces vulnerability which is caused if there is cloud based 
+2 kinds of edge computing capabilities.
+servers & devices(car , car)
+---------------------------
+ZigBee - packets for a legitimate request, and simply replay it to perform the 
+same action at a later point in time and take over the device
+MQTT - vulnerabilities in this are DDoS , Buffer overflow
+CoAP
+
+RAN
+
+
